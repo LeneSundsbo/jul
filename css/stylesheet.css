@@ -16,18 +16,18 @@ body {
   height: auto; }
   
 h1 {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   line-height: 1.3; }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   line-height: 1.2;
   font-weight: 700;
   color: #BFA13E;
-  margin-top: 4.2rem; }
+  margin-top: 3rem; }
 
 p {
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
-  margin-bottom: 2.1rem; }
+  margin-bottom: 1.5rem; }

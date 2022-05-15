@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Overpass Mono' rel='stylesheet'>
+    <title>Terje 70 år</title>
+  </head>
+
+  <body>
+    <img src="img/terje-header.svg" style="width: 100%; float: none; margin-bottom: 48px;">
+
+      <H1 id="demo"></H1>
+      <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Jun 10, 2022 18:30:00").getTime();
+      
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+      
+        // Get today's date and time
+        var now = new Date().getTime();
+          
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+          
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = "Nå er det bare " + days + " dager og " + hours + " timer til det braker løs 🥳 Her er nyttig info til dere som skal være med og feire vår kjære pappa.";
+          
+        // If the count down is over, write some text 
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+        }, 1000);
+        </script>
+
+
+    <H2>Oppmøte 18.30</H2>
+    <p>Terje ankommer litt etter kl 19 (i kjent stil…). Vi pisker opp stemningen før den tid, og håper alle har mulighet til å møte for oppkvikkende velkomstdrink fra kl 18.30.</p>
+
+    <H2>Middag</H2>
+    <p>Middagen serveres etter planen mellom kl 19.30 og kl 20.00.</p>
+
+    <H2>Matallergi</H2>
+    <p>Kokken tar selvsagt hensyn matallergier. Meld inn allergier snarest mulig til Lene (90 60 09 80).</p>
+
+    <H2>Bar</H2>
+    <p>Baren åpner etter middagen, og selger godsaker slik at stemningen når uante høyde utover kvelden.</p>
+
+    <H2>Taler</H2>
+    <p>Vi setter stor pris på alle som ønsker å si noen velvalgte ord denne kvelden. For å flette talene sømløst inn i programmet må de meldes inn til Lene (90 60 09 80) senest fredag 3. juni.</p>
+
+    <H2>Antrekk</H2>
+    <p>Det blir selvfølgelig kanonvær denne junikvelden. Finn fram pent og passende sommerantrekk.</p>
+
+    <H2>Lokalene</H2>
+    <p>Vi skal i hovedsak være innendørs i Gildehallens erverdige lokaler. Gåssa-Per har rigget til med tak og varmelamper på uteområdet for den som vil ut og trekke frisk luft i løpet av kvelden.</p>
+
+    <H2>Omvisning på lørdag</H2>
+    <p>De som ønsker omvisning på Aker Stadion og Brunvoll fabrikker med museum på lørdag er hjertelig velkommen til det. Send på melding til Stian (99 30 95 91) innen fredag 27. mai.</p>
+
+    <H2>Spørsmål</H2>
+    <p>Er det noe annet dere lurer på som vi ikke har gjort rede for? Ta kontakt med Stian på telefon 99 30 95 91.</p>
+
+    <p><br>Vi gleder oss veldig til å se dere alle sammen! Vel møtt. <br><br>Hilsen Stian og Lene</p>
+
+    <img src="img/terje-footer.svg" style="width: 100%; float: none; margin-top: 48px;">
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

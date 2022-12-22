@@ -7,54 +7,41 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link href='https://fonts.googleapis.com/css?family=Overpass Mono' rel='stylesheet'>
-    <title>Terje 70 år</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display|Playfair+Display+SC|Questrial|Yeseva+One&display=swap" rel="stylesheet">
+    <title>God jul, Louise!</title>
   </head>
-
   <body>
-    <img src="img/terje-header.svg" style="width: 100%; float: none; margin-bottom: 48px;">
 
-      <H1 id="demo"></H1>
-      <script>
-      // Set the date we're counting down to
-      var countDownDate = new Date("Jun 10, 2022 18:30:00").getTime();
-      
-      // Update the count down every 1 second
-      var x = setInterval(function() {
-      
-        // Get today's date and time
-        var now = new Date().getTime();
-          
-        // Find the distance between now and the count down date
-        var distance = countDownDate - now;
-          
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-          
-        // Output the result in an element with id="demo"
-        document.getElementById("demo").innerHTML = "Nå er det bare " + days + " dager og " + hours + " timer til det braker løs 🥳 Her er nyttig info til dere som skal være med å feire vår kjære pappa.";
-          
-        // If the count down is over, write some text 
-        if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("demo").innerHTML = "EXPIRED";
-        }
-        }, 1000);
-        </script>
-
-
-    <H2>Oppmøte fra klokken 18.30</H2>
-    <p>LÅIS!</p>
-
-    <H2>Matallergi</H2>
-    <p>Kokken tar selvsagt hensyn til matallergier. Gi beskjed om allergier til Stian (99 30 95 91) snarest mulig.</p>
-
-
-    <img src="img/terje-footer.svg" style="width: 100%; float: none; margin-top: 48px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Kjære Louise<br>
+            Let's do it again!
+          </h1>
+          <img class="plane" src="img/plane.gif">
+          <h2>Vi har rett og slett så lyst å få deg oppover til Kristiansund at vi gjør som vi har gjort før...</h2>
+        </div>
+        <div class="col-md-12">
+          <img class="plane" src="img/ticket.png">
+        </div>
+        <div class="col-md-12">
+          <h2>Vi vil ta deg fra dør til dør, og selvfølgelig skjemme deg bort så mye vi klarer mens du er i Kristiansund. La oss finne en dato som spikre en dato som passer for alle tre!
+          </h2>
+        </div>
+        <div class="col-md-12">
+          <img class="plane" src="img/route-louise.png">
+        </div>
+        <div class="col-md-12">
+          <h2>Vi gleder oss allerede!<br><br>
+            Varme juleklemmer og masse kjærlighet fra pappa & Lene
+          </h2>
+        </div>
+        <div class="col-md-12">
+          <img class="plane" src="img/heart.png" style="width: 96px; height: 96px; margin-bottom: 100px;">
+        </div>
+      </div>
+    </div>
 
 
     <!-- Optional JavaScript -->

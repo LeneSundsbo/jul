@@ -1,0 +1,87 @@
+body {
+  background-color: #283746;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  padding: 0;
+}
+
+img {
+  width: 100%; }
+
+.container {
+  padding: 0;
+  width: 100%; }
+
+p {
+  text-align: center;
+  margin-bottom: 1.6em;
+  padding: 32px 32px; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+a:visited {
+  color: #000;
+  text-decoration: none; }
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 300;
+  padding: 50px 24px 10px 24px; }
+
+h2 {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 300;
+  padding: 72px 32px 48px 32px; }
+
+.stianButton {
+  position: relative;
+  float: left;
+  left: -50%;
+  display: inline-block;
+  width: 16em;
+  padding: 0.9em 0.5em 0.8em 0.5em;
+  margin: 0.1em;
+  border-radius: 0.2em;
+  font-size: 0.9em;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+  color: #000;
+  line-height: 1em;
+  background-image: linear-gradient(#7d6e21, #fde777, #7d6e21, #7d6e21);
+  border: none;
+}
+
+.stianButton:hover {
+  padding: 1em 0.6em 0.9em 0.6em;
+  margin: 0em;
+  width: 16.2em;
+}
+
+
+.cTickets {
+  padding: 20px;
+  margin: 0 40px;
+  background-color: #fff;
+  border-radius: 1rem 1rem 0 0;
+}
+
+
+@media screen and (min-width: 576px) {
+.container {
+    max-width: 2000px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0; }
+}
